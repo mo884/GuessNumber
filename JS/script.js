@@ -22,7 +22,7 @@ const guess = Number(document.querySelector('.guess').value);
         if(Score>highscore)
         {
             highscore = Score;
-            document.querySelector('.highscore').textContent =highscore;
+            document.querySelector('.highscore').textContent =highscore + '🤩';
         }
     //when user input high number
  }else if(guess > num){
